@@ -1,0 +1,26 @@
+package com.a;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);  
+
+		int a;
+		int b;
+
+		Calculator object = new Calculator();
+		System.out.println("Enter two number:");
+		a =sc.nextInt();
+		//System.out.println("Enter second number:");
+		b=sc.nextInt();
+		System.out.println("The sum of two no's : "+object.sum(a,b));
+		System.out.println("The sub of two no's : "+object.sub(a,b));
+		System.out.println("The mul of two no's  "+object.mul(a,b));
+		System.out.println("The divide of first and second no: "+object.divide(a,b));
+
+		sc.close();
+			}
+
+		}
+
